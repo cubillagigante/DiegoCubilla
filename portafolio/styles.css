@@ -1,0 +1,285 @@
+body {
+    background-color: #16213E;
+    margin: 0;
+    font-family: tahoma;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+    width:5px;
+    
+}
+
+body::-webkit-scrollbar-button:increment,body::-webkit-scrollbar-button {
+    display: none;
+} 
+
+body::-webkit-scrollbar:horizontal {
+    height: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #0F3460;
+    
+    border-radius: 20px;
+    
+}
+
+.contenedor::-webkit-scrollbar-track {
+    border-radius: 100px;  
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto 0;
+}
+h1 {
+    text-align: center;
+}
+.letras_hover {
+    font-size: 18vw;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #F5EDDC;
+    opacity: 0.5;
+    
+}
+.letras_hover:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.conocimiento {
+    background-color: #E94560;
+    margin-left: 10px;
+    color: white;
+    border-radius: 80px;
+    margin-right: 10px;
+    line-height: 60px;
+    padding: 10px;
+}
+.costado {
+    width: 30%;
+    border-left: 1px solid #F5EDDC;
+    display : block;
+    
+}
+.cuerpo {
+    width: 70%;
+    position: relative;
+}
+.articulo-1 {
+    width: 25%;
+    border:1px solid #F5EDDC;
+    display: inline-block;
+    
+    margin: auto 3.5% ;
+}
+.lenguajes {
+    
+    margin: 2em 5em;
+}
+hr {
+    width: 50%;
+    background-color: white;
+    height: 5px;
+}
+.contactos hr {
+    margin: -10px auto 2.5em;
+}
+.blue {
+    background: linear-gradient( #16213E, #E94560 );
+}
+.crema {
+    background: linear-gradient(  #0F3460, #16213E);
+    
+}
+.red {
+    background: linear-gradient( #E94560,#16213E);
+}
+
+.text-white {
+    color:white;
+}
+#seccion-cuerpo {
+    padding-top: 5em;
+    box-sizing: border-box;
+    display : flex;
+    padding-bottom: 5em;
+    
+}
+#biografia {
+    
+    box-sizing: border-box;
+    display : flex;
+    padding-top: 7em;
+    box-sizing: border-box;
+    
+}
+#prueba {
+    width:90%;
+    padding-top: 52%;
+    margin:4em auto;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 1px 10px 50px 0px black;
+    border-radius: 50px;
+}
+#prueba iframe {
+    border: 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top:0;
+    position: absolute;
+    
+    
+ }
+ .contactos {
+    width: 80%;
+    line-height: 3.5em;
+    margin: 0 auto;
+    overflow: hidden;
+    
+ }
+ .contactos-dentro {
+   text-align: center;
+   
+ }
+ .redes {
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0.5em 2em;
+    margin-right: 1em;
+    border: 1px solid #F5EDDC;
+    overflow: hidden;
+    
+ }
+ .redes:hover {
+    background: #16213E ;
+    transition: 1s;
+ }
+ .flecha-abajo {
+    margin:3em auto;
+    width:2.9%;
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ }
+
+ .slide-certificado {
+    width: 70%;
+    margin: 0 auto;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: 1px 10px 50px 0px black;
+ }
+ h2 {
+    text-align: justify;
+    width: 60%;
+    margin: 2em auto;
+    line-height: 1.5em;
+    color: #F5EDDC;
+    font-weight: lighter;
+    
+ }
+ h1 {
+    color: #F5EDDC;
+ }
+ #biografia .costado {
+    border:0;
+    padding-top: 0;
+    box-sizing: border-box;
+    
+ }
+ .mifoto {
+    width: 11%;
+    border-radius: 100px;
+    display: inline-block;
+    margin-left: 3em;
+ }
+ a {
+    color: white;
+    cursor: hand;
+    text-decoration: none;
+ }
+ .prev {
+    
+    width: 50%;
+    padding: 0.5em;
+    
+ }
+ .next {
+    
+    width: 50%;
+    padding: 0.5em;
+ }
+ 
+ .content-botones {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    color: white;
+    cursor: hand;
+    
+ }
+ .prev:hover, .next:hover {
+    background-color: #E94560;
+    
+ }
+ .flecha-abajo2 {
+    margin: 4em auto;
+    
+    width: 10%;
+ }
+
+@media (max-width:918px)  { 
+    /* smartphones, Android phones, landscape iPhone */ 
+    .costado {
+        width: 100%;
+        border: 0;
+    }
+    .cuerpo {
+        width: 100%;
+    }
+    #seccion-cuerpo {
+        padding-top: 2em;
+        padding-bottom: 75em;
+        display: inline-block;
+    }
+    #biografia {
+        padding-top: 0em;
+        display: inline-block;
+        padding-bottom: 10em;
+    }
+    #biografia .costado{
+        
+        padding-top: 3em;
+    }
+    
+     
+}
+
+@keyframes slidein {
+    from {
+      margin-bottom: 3%;
+      
+    }
+  
+    to {
+      margin-top: 0%;
+      
+    }
+  }
